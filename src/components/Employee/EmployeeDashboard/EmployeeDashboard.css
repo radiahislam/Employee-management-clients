@@ -1,0 +1,19 @@
+
+.barChart {
+    width: 780px !important;
+  }
+@media screen and (min-width:1024px) {
+    .barChart {
+        width: 700px ;
+      }
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .barChart {
+        width: 630px ;
+      }
+}
+@media (min-width:208px)  and (max-width:767px) {
+    .barChart {
+        width: 350px;
+      }
+}
